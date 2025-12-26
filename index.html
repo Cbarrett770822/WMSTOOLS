@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMS Tools Suite - Launch Pad</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="40" height="40" rx="8" fill="url(#gradient)"/>
+                    <path d="M10 15L20 10L30 15V25L20 30L10 25V15Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M20 10V20M10 15L20 20L30 15M20 20V30" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    <defs>
+                        <linearGradient id="gradient" x1="0" y1="0" x2="40" y2="40">
+                            <stop offset="0%" stop-color="#667eea"/>
+                            <stop offset="100%" stop-color="#764ba2"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <h1>WMS Tools Suite</h1>
+            </div>
+            <p class="subtitle">Comprehensive Warehouse Management System Solutions</p>
+        </header>
+
+        <div class="tools-grid">
+            <!-- WMS Discovery -->
+            <div class="tool-card" data-category="assessment">
+                <div class="card-header">
+                    <div class="icon-wrapper discovery">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 11l3 3L22 4"/>
+                            <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+                        </svg>
+                    </div>
+                    <span class="badge">Assessment</span>
+                </div>
+                <h2>WMS Discovery</h2>
+                <p class="description">Interactive questionnaire tool for assessing warehouse operations and identifying improvement opportunities.</p>
+                <ul class="features">
+                    <li>Multi-stage questionnaires</li>
+                    <li>Company & warehouse profiles</li>
+                    <li>Pain point analysis</li>
+                    <li>User management</li>
+                </ul>
+                <a href="https://wmsdiscovery.netlify.app/login" class="btn" target="_blank">
+                    Launch Tool
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 3L11 8L6 13"/>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- WMS ROI Assessment -->
+            <div class="tool-card" data-category="assessment">
+                <div class="card-header">
+                    <div class="icon-wrapper roi">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v20M2 12h20"/>
+                            <path d="M17 5l-5 5-4-4-6 6"/>
+                        </svg>
+                    </div>
+                    <span class="badge">Financial</span>
+                </div>
+                <h2>WMS ROI Assessment</h2>
+                <p class="description">Calculate return on investment for warehouse management system implementations with detailed financial analysis.</p>
+                <ul class="features">
+                    <li>ROI calculations</li>
+                    <li>Cost-benefit analysis</li>
+                    <li>Implementation roadmap</li>
+                    <li>Benchmark comparisons</li>
+                </ul>
+                <a href="https://wmsroi.netlify.app/login.html" class="btn" target="_blank">
+                    Launch Tool
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 3L11 8L6 13"/>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Demo Assist -->
+            <div class="tool-card" data-category="demo">
+                <div class="card-header">
+                    <div class="icon-wrapper demo">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M9 9h6v6H9z"/>
+                            <path d="M9 3v6M15 3v6M9 15v6M15 15v6M3 9h6M3 15h6M15 9h6M15 15h6"/>
+                        </svg>
+                    </div>
+                    <span class="badge">Demo</span>
+                </div>
+                <h2>Demo Assist</h2>
+                <p class="description">AI-powered data generator for creating realistic WMS demo scenarios with storers, SKUs, ASNs, and shipment orders.</p>
+                <ul class="features">
+                    <li>AI-generated test data</li>
+                    <li>Storer & SKU creation</li>
+                    <li>ASN generation</li>
+                    <li>Shipment orders</li>
+                </ul>
+                <a href="https://demoassist.netlify.app/" class="btn" target="_blank">
+                    Launch Tool
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 3L11 8L6 13"/>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- WMS Demo Dashboard -->
+            <div class="tool-card" data-category="demo">
+                <div class="card-header">
+                    <div class="icon-wrapper dashboard">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="7" height="7" rx="1"/>
+                            <rect x="14" y="3" width="7" height="7" rx="1"/>
+                            <rect x="14" y="14" width="7" height="7" rx="1"/>
+                            <rect x="3" y="14" width="7" height="7" rx="1"/>
+                        </svg>
+                    </div>
+                    <span class="badge">Presales</span>
+                </div>
+                <h2>WMS Demo Dashboard</h2>
+                <p class="description">Generate professional presales dashboards with customizable metrics and visualizations for client presentations.</p>
+                <ul class="features">
+                    <li>Custom dashboards</li>
+                    <li>Real-time metrics</li>
+                    <li>Data visualization</li>
+                    <li>Client presentations</li>
+                </ul>
+                <a href="https://wmsdemodashboard.netlify.app/" class="btn" target="_blank">
+                    Launch Tool
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 3L11 8L6 13"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 WMS Tools Suite. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Documentation</a>
+                    <a href="#" class="footer-link">Support</a>
+                    <a href="#" class="footer-link">Contact</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
