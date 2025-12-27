@@ -40,12 +40,21 @@ A professional landing page for accessing the complete suite of Warehouse Manage
   - Client presentation tools
   - Data visualization components
 
+### 5. **User Admin**
+- **URL**: https://wmsadminuser.netlify.app/
+- **Purpose**: Centralized user management for all WMS applications
+- **Features**:
+  - User account management
+  - Role-based access control
+  - App-specific permissions
+  - Centralized authentication system
+
 ## 🎨 Design Features
 
 - **Modern Dark Theme**: Professional dark mode interface with gradient accents
 - **Responsive Design**: Fully responsive layout that works on all devices
 - **Smooth Animations**: Card hover effects and entrance animations
-- **Category Organization**: Tools organized by Assessment, Financial, Demo, and Presales categories
+- **Category Organization**: Tools organized by Assessment, Financial, Demo, Presales, and Admin categories
 - **Icon System**: Custom SVG icons for each tool
 - **Accessibility**: Semantic HTML and proper contrast ratios
 
@@ -119,6 +128,7 @@ Edit CSS variables in `styles.css`:
     --roi-color: #f59e0b;
     --demo-color: #3b82f6;
     --dashboard-color: #8b5cf6;
+    --admin-color: #ec4899;
 }
 ```
 

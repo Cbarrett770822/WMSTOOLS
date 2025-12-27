@@ -10,6 +10,7 @@
     --roi-color: #f59e0b;
     --demo-color: #3b82f6;
     --dashboard-color: #8b5cf6;
+    --admin-color: #ec4899;
     --bg-primary: #0f172a;
     --bg-secondary: #1e293b;
     --bg-card: #1e293b;
@@ -145,6 +146,11 @@ body {
 .icon-wrapper.dashboard {
     background: rgba(139, 92, 246, 0.1);
     color: var(--dashboard-color);
+}
+
+.icon-wrapper.admin {
+    background: rgba(236, 72, 153, 0.1);
+    color: var(--admin-color);
 }
 
 .badge {
