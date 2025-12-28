@@ -1,6 +1,6 @@
 # WMS Tools Suite - Launch Pad
 
-A professional landing page for accessing the complete suite of Warehouse Management System (WMS) tools.
+A professional landing page for accessing the complete suite of Warehouse Management System (WMS) tools. Updated Dec 28, 2025.
 
 ## 🚀 Included Applications
 
